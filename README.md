@@ -31,3 +31,31 @@ This project implements object detection using **YOLOv8** on the **VisDrone** da
 **Improvement**: +0.088 mAP50 by using YOLOv8s over YOLOv8n
 
 ## Project Structure
+Object-Detection-using-YOLO/
+├── notebooks/
+│   └── YOLOv8_VisDrone_Training.ipynb
+├── results/
+│   └── sample_detections/
+└── README.md
+
+
+## How to Run
+
+1. Open the notebook in Google Colab
+2. Install dependencies:
+   ```bash
+   !pip install ultralytics
+3. Follow the cells to train and evaluate the models
+
+## Key Observations
+YOLOv8s performed better than YOLOv8n on the VisDrone subset.
+The dataset contains many small objects, which makes detection challenging.
+Pedestrian class was the most frequently detected due to class imbalance.
+
+## Future Improvements
+Train on the full VisDrone dataset
+Experiment with additional techniques (e.g., better augmentation, P2 head with longer training)
+Evaluate on other small object datasets
+
+# Author
+Siri Valli

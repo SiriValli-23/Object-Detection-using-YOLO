@@ -57,5 +57,5 @@ Train on the full VisDrone dataset
 Experiment with additional techniques (e.g., better augmentation, P2 head with longer training)
 Evaluate on other small object datasets
 
-# Author
-Siri Valli
+## Author
+Siri Valli Kalavaguntla
